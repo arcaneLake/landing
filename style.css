@@ -1,22 +1,87 @@
-
-
 body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+/* Top parts */
+
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    padding: 12px;
+
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+}
+
+/* Hero parts */
 
 .hero-container {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
+
+.hero-container button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+/* Columns part */
+
+.random-info {
+    display: flex;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Quotes part */
 
 .quote-text {
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text p {
+    max-width: 800px;
 }
 
 .call-to-action {
