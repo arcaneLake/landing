@@ -20,14 +20,33 @@ body {
 }
 
 .call-to-action {
-    padding: 50px; 
-    margin: 100px;
+    padding: 30px 80px; 
+    margin: 100px 300px;
     background-color: #3882F6;
-    border-radius: 5px;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
 }
 
 .footer-container {
     background-color: #1F2937;
     color: white;
-    overflow: hidden
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
 }
