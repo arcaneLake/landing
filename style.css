@@ -40,8 +40,13 @@ h2 {
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.hero-container .left {
+    width: 550px;
 }
 
 .hero-container button {
